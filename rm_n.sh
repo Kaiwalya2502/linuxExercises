@@ -18,4 +18,3 @@ fi
 
 find "$dir" -type f -size +"$n"c -exec rm {} \;
 
-echo "All files in $dir larger than $n bytes have been removed."
